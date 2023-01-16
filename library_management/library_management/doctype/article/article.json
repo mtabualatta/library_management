@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:article_name",
  "creation": "2023-01-14 13:21:41.354924",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -18,7 +19,8 @@
   {
    "fieldname": "article_name",
    "fieldtype": "Data",
-   "label": "Article Name"
+   "label": "Article Name",
+   "unique": 1
   },
   {
    "fieldname": "image",
@@ -54,7 +56,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-14 13:21:41.354924",
+ "modified": "2023-01-16 14:54:20.137702",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Article",
